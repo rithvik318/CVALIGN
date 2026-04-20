@@ -136,7 +136,6 @@ def run():
     st.sidebar.markdown("# Choose Something...")
     activities = ["User", "Feedback", "About", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    link = '<b>Built with 🤍<a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: #021659;"></a></b>' 
     st.sidebar.markdown(link, unsafe_allow_html=True)
     st.sidebar.markdown('''
         <!-- site visitors -->
@@ -652,8 +651,7 @@ def run():
 
         <p align="justify">
             Built with 🤍 
-            <a href="https://dnoobnerd.netlify.app/" style="text-decoration: none; color: grey;"></a> through 
-            <a href="https://www.linkedin.com/in/mrbriit/" style="text-decoration: none; color: grey;">Dr Bright --(Data Scientist)</a>
+            
         </p>
 
         ''',unsafe_allow_html=True)  
